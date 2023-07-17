@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+/*header section css code start*/
+header{
+	width: 100%;
+	padding: 32px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.search {
+	width: 300px;
+	border-radius: 30px;
+	display: block;
+	padding: 0.375rem 2.5rem;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #212329;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+}
+form {
+	position: relative;
+}
+form i {
+	position: absolute;
+	top: 14px;
+	left: 16px;
+	color: gray;
+}
+.logotext:hover span {
+    color: #F79918;
+    transition: 0.4s;
+}
+.logotext{
+	text-decoration: none;
+	font-size: 20px;
+	color:#000;
+	text-transform: uppercase;
+	font-weight: 650;
+}
+.social-icons i{
+	color: #000;
+	margin: 0 12px ;
+}
+
+.hamburger .line{
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+     transition: 0.5s;
+}
+.hamburger:hover{
+	cursor: pointer;
+}
+.hamburger:hover .line:nth-child(1){
+ transform: translateY(3px);
+ transition: 0.5s;
+}
+.hamburger:hover .line:nth-child(3){
+ transform: translateY(-3px);
+ transition: 0.5s;
+}
+
+/*header section css code end*/
+
+/*banner section css code start*/
+
+.desc{
+	color: #888;
+	font-size: 14px;
+}
+
+.owl-nav {
+	display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #F79918;
+}
+
+/*banner section css code end*/
+
+/*all post section css code start*/
+
+.posts{
+	padding: 100px 0;
+}
+
+/*all post section css code end*/
+
+
+/*category wise post viwe section css code start*/
+
+.category-wise{
+	padding: 80px 0;
+}
+
+.userinfo p {
+	font-size: 14px;
+}
+
+..category-wise h5 {
+	font-size: 20px;
+}
+
+/*category wise post viwe section css code end*/
+
+/*subcriber post section css code start*/
+
+.subscribe {
+    background: #F8F9FA;
+    padding: 60px 0;
+}
+
+.subscribe input {
+    padding: 12px 0px 12px 20px;
+    width: 70%;
+    margin-right: 13px;
+    border: 1px solid #CCCCCC;
+}
+
+.subscribe input:focus {
+    outline: none;
+    border: 1px solid #000000;
+}
+
+.subscribe button {
+    padding: 16px 120px;
+    border: transparent;
+    background: #F79918;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    transition: 0.5s;
+}
+
+.subscribe button:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: white;
+    color: #F79918 !important;
+    transition: 0.5s;
+}
+/*subcriber post section css code end*/
+
+/*footer post section css code start*/
+
+footer {
+    padding: 80px 0;
+}
+
+.footer-social a {
+    font-size: 14px;
+    background: #ccc;
+    padding: 10px 0;
+    width: 40px;
+    display: inline-block;
+    border-radius: 15px;
+    color: black;
+    transition: 0.4s;
+}
+
+.footer-social a:hover {
+    background: #F79918;
+    color: white;
+    transition: 0.4s;
+}
+
+footer p {
+    color: #888888;
+}
+
+.love {
+    color: red;
+}
+
+.footer-hover {
+    color: #888888;
+    text-decoration: none;
+    border-bottom: 4px solid #fde6c7;
+    transition: 0.4s;
+}
+
+.footer-hover:hover {
+    color: #000000;
+    border-bottom: 4px solid #F79918;
+    transition: 0.4s;
+}
+
+/*footer post section css code end*/
+
+.popular-post {
+    padding: 80px 0;
+}
+
+.banner-2-content {
+    font-size: 16px;
+}
+
+
